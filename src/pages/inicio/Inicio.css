@@ -11,7 +11,7 @@
 }*/
 
 .Inicio-header {
-  background-color: #4c0689;
+  background-color: #140224;
   min-height: 25vh;
   display: flex;
   flex-direction: row;
@@ -20,9 +20,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.Inicio {
-  text-align: center;
-}
+
 .Inicio-link {
   
   color: #61dafb;

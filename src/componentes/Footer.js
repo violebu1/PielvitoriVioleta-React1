@@ -41,10 +41,11 @@ const Footer = () => {
 
 export default Footer;
 */
-
+/*
 import React from 'react';
 //import logo2 from '../assetsMisiotronica/logo2.png';
-//import { Styled } from 'styled-components/dist/constructors/constructWithOptions';
+//import { Styled } from 'DONDE
+
 
 function Footer() {
 
@@ -58,7 +59,7 @@ function Footer() {
         
         <a
           className="div text-white div-floating m-1"
-          style={{"background-color: #3b5998;"}}
+          style="background-color: #3b5998"
           href="#!"//facebook
           role="button"
           ><i className="fab fa-facebook-f"></i
@@ -68,7 +69,7 @@ function Footer() {
        
         <a //instagram
           className="div text-white div-floating m-1"
-          style={{"background-color: #ac2bac;"}}
+          style="background-color: #ac2bac;"
           href="#!"
           role="button"
           ><i className="fab fa-instagram"></i
@@ -112,4 +113,33 @@ function Footer() {
  
 export default Footer;
 
+*/
 
+
+import React from 'react';
+import { FaInstagram, FaWhatsapp, FaFacebook, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-router-dom'; // Solo si deseas agregar enlaces a tus redes sociales
+
+const Footer = () => {
+  return (
+    <footer style={{ backgroundColor: '#333', color: '#fff', padding: '20px', textAlign: 'center' }}>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', margin: '0 10px' }}>
+          <FaInstagram size={24} />
+        </a>
+        <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', margin: '0 10px' }}>
+          <FaWhatsapp size={24} />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', margin: '0 10px' }}>
+          <FaFacebook size={24} />
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#fff', margin: '0 10px' }}>
+          <FaLinkedin size={24} />
+        </a>
+      </div>
+      <p style={{ marginTop: '10px' }}>Síguenos en nuestras redes sociales</p>
+    </footer>
+  );
+};
+
+export default Footer;

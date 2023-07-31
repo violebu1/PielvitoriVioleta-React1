@@ -14,12 +14,16 @@
 }
 */
 
-
 .app {
     display: flex;
     min-height: 100%;
 }
+
+
+
+/*XQ NO TOMA EL ESTILO???*/
 .footer {
+    
     text-align:left;
     padding-top: 3rem ;
     position: fixed;
@@ -43,7 +47,7 @@ html, body, #root {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     -webkit-font-smoothing:antialiased;
-    background-color: #9331f66a; 
+    background-color: #230046df; 
 
 }
 
