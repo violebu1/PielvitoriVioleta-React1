@@ -5,7 +5,7 @@ import React from "react";
 
 
 
-const productsData = [
+const ProductsData = [
     {
       id: 1,
       name: "Arduino",
@@ -22,5 +22,5 @@ const productsData = [
     
   ];
   
-  export default productsData;
+  export default ProductsData;
   

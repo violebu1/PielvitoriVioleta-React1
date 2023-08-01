@@ -27,11 +27,8 @@ class App extends Component {
   render(){
     return (
     <Router>
-      
       <Navbar/>
-      
-      
-      
+           
       <Routes>
         <Route exact path="/inicio" element={<Inicio />} />
         <Route exact path="/sobreNosotros" element={<SobreNosotros />} />
