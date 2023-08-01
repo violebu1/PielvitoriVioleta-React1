@@ -24,7 +24,7 @@ const Navbar = () => {
           className="Inicio-logo"
           alt="logoUno"
           style={{ width: "25%" }}
-          className="d-inline-block align-text-top"
+          className= "d-inline-block align-text-top"
         />
       </div>
 
@@ -43,7 +43,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/venta">
+            <a href="/tienda">
               <FaStore className="navbar-icon" />
               Tienda
             </a>
@@ -72,13 +72,23 @@ import logo1 from '../assetsMisiotronica/logo1.png';
 
 function Navbar() {
   return (
-    <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-dark">
+  <nav className="navbar navbar-expand-lg navbar-light bg-dark">
   <div className="container-fluid">
     <a className="navbar-brand ml-auto" href="#">
       <img src={logo1} className="Inicio-logo" alt="logoUno"  style={{width:'35%'}} className="d-inline-block align-text-top" />
     </a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
-        <span className="navbar-toggler-icon" ></span>
+        <button 
+        className="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation" >
+        <span >
+        <i className="fas fa-bars"
+        style={{color:'#fff'}}/>
+        </span>
         
         </button>
 
@@ -86,13 +96,17 @@ function Navbar() {
 
 
         
-/*
+
 
         </div>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent" >
+        <div className="collapse navbar-collapse" 
+        id="navbarSupportedContent" >
         <ul className="navbar-nav m-auto">
         <li className="nav-item">
-          <a className="nav-link active text-white text-uppercase ml-5" aria-current="page" href="#">Inicio&nbsp;<i class="bx bx-home-alt" style={{ fontSize: "1.50em" }}></i></a>
+          <a className="nav-link active 
+          text-white text-uppercase ml-5" 
+          aria-current="page" 
+          href="#">Inicio&nbsp;<i class="bx bx-home-alt" style={{ fontSize: "1.50em" }}></i></a>
         </li>
         <li className="nav-item active">
           <a className="nav-link active text-white text-uppercase ml-5" aria-current="page" href="#">Sobre Nosotros&nbsp;<i class="bx bxs-user-detail" style={{ fontSize: "1.50em" }}></i></a>
@@ -126,5 +140,5 @@ function Navbar() {
 
 export default Navbar;
     
-    
-    */
+   */ 
+

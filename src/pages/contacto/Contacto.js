@@ -1,35 +1,27 @@
-
-
-
-
-
-
-
-
-
 import React from "react";
 
 import "./Contacto.css";
-//import Titulo from "../../componentes/Titulo";
-//import formularioContacto from "../../componentes/FormContacto";
+
+import '../../componentes/FormContacto';
+import { useState } from "react";
+import FormContacto from "../../componentes/FormContacto";
 
 
 
-function Contacto ()  {
-   return (
-      <div className="formularioContacto">
-         <p>"Por favor contáctanos para cualquier duda o consulta!"
-         
-         Por favor deja tus datos de contacto para comunicarnos contigo a la brevedad.
-         </p>
-         
-         <p className="pieDePagina">
-            Te responderemos tan pronto como sea posible!
-         </p>
+
+function Contacto()  {
+  
+    return (
+      <div className="formucontacto">
+         <FormContacto/>
+         <div className="piedepagina">
+                     *Por favor no olvides dejarnos tus datos para que podamos contactarnos con vos.
+         </div>
+
+
       </div>
-   );
-}
+    )
+  }
+
 
 export default Contacto;
-
-

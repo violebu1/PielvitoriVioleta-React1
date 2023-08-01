@@ -1,5 +1,5 @@
 import React from "react";
-//import Apartado from "../../componentes/Titulo";
+
 import "./SobreNosotros.css";
 
 
@@ -9,9 +9,9 @@ import "./SobreNosotros.css";
 
 function SobreNosotros() {
     return (
-        <div className="sobreNosotros" id="acercaDe">
+        <div className="sobreNosotros">
             
-            <div className="sobreNosotros.info">
+            
                 <p>
                 Somos una empresa especialista dedicada en la venta de todo tipo de productos para el consumo. Nuestra misión es ofrecer a los usuarios finales unos precios bajos muy atractivos y fomentar la confianza en las compras a través de Internet.
 
@@ -25,7 +25,7 @@ Estamos creciendo día a día, tanto en ventas como en la confianza de los usuar
 
 No sólo nuestra tienda on-line dispone de una base técnica muy avanzada, también los productos que vendemos están elegidos entre las mejores marcas del mercado para asegurar que nuestros clientes tengan siempre los mejores productos a los mejores precios. 
                 </p>
-            </div>
+            
         </div>
     );
 }
