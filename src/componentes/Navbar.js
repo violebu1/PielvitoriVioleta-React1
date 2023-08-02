@@ -17,14 +17,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar alineacion">
       <div className="navbar-logo">
         <img
           src={logo1}
           className="Inicio-logo"
           alt="logoUno"
           style={{ width: "25%" }}
-          className= "d-inline-block align-text-top"
+          
         />
       </div>
 
