@@ -1,4 +1,7 @@
 import React from 'react';
+import './Carrito.css';
+
+
 
 const Carrito = ({ cartItems, onClose, onRemoveItem }) => {
   return (

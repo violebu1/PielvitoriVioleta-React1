@@ -14,12 +14,7 @@
   transform: scale(1.05);
 }
 
-.product-card img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
-  margin-bottom: 10px;
-}
+ 
 
 .product-card h3 {
   font-size: 18px;
@@ -42,4 +37,9 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+.card-img-top{
+  max-width: 100%;
+  max-height: 245px;
+  margin: 3% auto;
 }

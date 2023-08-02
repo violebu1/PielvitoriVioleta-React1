@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import "./Inicio.css";
-import Carousel from "bootstrap";
-import productsData from "../../componentes/ProductsData";
+
 
 function Inicio() {
   return (
