@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Inexistente.css';
 import '../../assetsMisiotronica/logo192.png';
 

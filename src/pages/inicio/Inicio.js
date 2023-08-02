@@ -1,5 +1,6 @@
 import React from "react";
 import "./Inicio.css";
+import Carousel from "bootstrap";
 
 
 function Inicio() {

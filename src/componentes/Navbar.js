@@ -33,25 +33,25 @@ const Navbar = () => {
           <li>
             <a href="/inicio">
               <FaHome className="navbar-icon" />
-              Inicio
+              INICIO
             </a>
           </li>
           <li>
             <a href="/sobreNosotros">
               <FaInfoCircle className="navbar-icon" />
-              Sobre Nosotros
+              SOBRE NOSOTROS
             </a>
           </li>
           <li>
             <a href="/tienda">
               <FaStore className="navbar-icon" />
-              Tienda
+              TIENDA
             </a>
           </li>
           <li>
             <a href="/contacto">
               <FaEnvelope className="navbar-icon" />
-              Contacto
+              CONTACTO
             </a>
           </li>
         </ul>

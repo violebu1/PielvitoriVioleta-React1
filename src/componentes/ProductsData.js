@@ -1,10 +1,3 @@
-
-import React from "react";
-
-
-
-
-
 const productsData = [
     {
       id: 1,
