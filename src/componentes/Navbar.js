@@ -23,11 +23,11 @@ const Navbar = () => {
           src={logo1}
           className="Inicio-logo"
           alt="logoUno"
-          style={{ width: "15%" }}
+          style={{ width: "25%" }}
           
         />
-      </div>
-
+      
+      <div className="menu-abierto">
       <div className={`navbar-links ${isMobileMenuOpen ? "active" : ""}`}>
         <ul className="navbar-menu">
           <li>
@@ -56,9 +56,10 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-
+      </div>
       <div className="navbar-mobile-menu" onClick={handleMobileMenuToggle}>
         <FaBars className="navbar-icon" />
+      </div>
       </div>
     </nav>
   );
