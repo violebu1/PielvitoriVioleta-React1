@@ -66,8 +66,8 @@ function Inicio() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <div className="titulo-carousel text-center ">
-      PRODUCTOS DESTACADOS</div>
+      <div className="titulo-carousel text-center mt-2 ">
+      Destacados</div>
     </div>
   );
 }

@@ -19,14 +19,16 @@ const Navbar = () => {
   return (
     <nav className="navbar alineacion">
       <div className="navbar-logo">
+        <a href="/inicio">
         <img
           src={logo1}
           className="Inicio-logo"
           alt="logoUno"
-          style={{ width: "25%" }}
+          style={{ width: "35%" }}
+          
           
         />
-      
+        </a>
       <div className="menu-abierto">
       <div className={`navbar-links ${isMobileMenuOpen ? "active" : ""}`}>
         <ul className="navbar-menu">
@@ -39,7 +41,7 @@ const Navbar = () => {
           <li>
             <a href="/sobreNosotros">
               <FaInfoCircle className="navbar-icon" />
-              SOBRE NOSOTROS
+              NOSOTROS
             </a>
           </li>
           <li>

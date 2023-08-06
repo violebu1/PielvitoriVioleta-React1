@@ -11,6 +11,7 @@ form {
   label {
     display: block;
     margin-bottom: 5px;
+   
   }
   
   input,
@@ -31,4 +32,6 @@ form {
     border-radius: 4px;
     cursor: pointer;
   }
-  
+  .campos{
+    font-size: 1rem;
+  }

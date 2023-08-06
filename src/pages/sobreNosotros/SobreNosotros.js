@@ -11,7 +11,7 @@ function SobreNosotros() {
     return (
         <div className="sobreNosotros">
             
-            <h1 className="catalogo text-center my-4">NOSOTROS</h1>
+            <h2 className="catalogo text-center my-4">NOSOTROS</h2>
 
                 <p>
                 Somos una empresa especialista dedicada en la venta de todo tipo de productos para el consumo. Nuestra misión es ofrecer a los usuarios finales unos precios bajos muy atractivos y fomentar la confianza en las compras a través de Internet.

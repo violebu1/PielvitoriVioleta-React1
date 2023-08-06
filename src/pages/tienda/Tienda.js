@@ -42,7 +42,7 @@ const Tienda = () => {
   return (
     <div className="contenedor mt-5">
 
-      <h1 className="catalogo text-center my-4 ">NUESTROS PRODUCTOS</h1>
+      <h2 className="catalogo text-center my-4 ">NUESTROS PRODUCTOS</h2>
 
 <div className="bloque-carro">
       <i

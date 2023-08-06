@@ -1,5 +1,0 @@
-Precisión de ±2 dB con resolución de 0,1 dB
-Ponderación A + C
-Salida analógica CA
-Graba valores mínimos y máximos en distintos momentos
-Utiliza un micrófono de condensador electret de 0,5 in (12,7 mm)

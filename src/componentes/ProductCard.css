@@ -39,7 +39,7 @@
   cursor: pointer;
 }
 .card-img-top{
-  max-width: 100%;
+  max-width: 292px;
   max-height: 245px;
   margin: 3% auto;
 }
