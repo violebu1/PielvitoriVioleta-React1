@@ -26,6 +26,7 @@ Estamos creciendo día a día, tanto en ventas como en la confianza de los usuar
 
 No sólo nuestra tienda on-line dispone de una base técnica muy avanzada, también los productos que vendemos están elegidos entre las mejores marcas del mercado para asegurar que nuestros clientes tengan siempre los mejores productos a los mejores precios. 
                 </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3541.0471549644985!2d-55.89115862595495!3d-27.436641115295906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457b8d67e25f3eb%3A0xd2e8e96b1ae61e85!2sM%C3%B3dulo%20Campus%20(FCEQyN%20-%20UNaM)!5e0!3m2!1ses-419!2suy!4v1691715226896!5m2!1ses-419!2suy" width="100%" height="10%" style={{ border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             
         </div>
     );

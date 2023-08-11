@@ -6,7 +6,9 @@ import Carousel from "bootstrap";
 function Inicio() {
   return (
     <div className="carouselEntero"  >
-      
+{/*       
+      responsivo?? */}
+      <iframe width="450%" height="45%" src="https://www.youtube.com/embed/6fjfLD0E5R8" title="YouTube video player" frameborder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <div id="carouselExampleIndicators" className="carousel slide">
         <div className="carousel-indicators">
           <button
@@ -40,6 +42,7 @@ function Inicio() {
           <div className="carousel-item">
             <img src="../../images/ringbit3.jpg" className="d-block img-fluid" alt="..." />
           </div>
+          
         </div>
         <button
           className="carousel-control-prev"
@@ -68,7 +71,9 @@ function Inicio() {
       </div>
       <div className="titulo-carousel text-center mt-2 ">
       Destacados</div>
+      
     </div>
+    
   );
 }
 
