@@ -6,7 +6,12 @@
     background-color: rgba(33, 33, 133, 0.685);
     
 }
+.musica {
 
+    display:flex;
+    flex-wrap: wrap;
+
+}
 
 
 .carousel-item{
