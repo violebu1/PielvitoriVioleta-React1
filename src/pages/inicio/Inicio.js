@@ -7,12 +7,7 @@ function Inicio() {
   return (
     <div className="carouselEntero"  >
 
-      <div className="musica">
-      <iframe width="450%" height="45%" src="https://www.youtube.com/embed/6fjfLD0E5R8" 
-      title="YouTube video player" frameborder="" allow="accelerometer; autoplay; 
-      clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      allowfullscreen></iframe>
-      </div>
+      
 
 
       <div id="carouselExampleIndicators" className="carousel slide">
