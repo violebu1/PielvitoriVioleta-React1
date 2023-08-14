@@ -26,6 +26,7 @@
   background-color: rgb(161, 96, 245); 
   border-color: #7b1fa2; 
   color: #fff; 
+  min-height: 40vh;
 }
 
 .contenedor{

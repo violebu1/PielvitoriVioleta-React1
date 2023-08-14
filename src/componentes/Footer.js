@@ -19,7 +19,7 @@ const Footer = () => {
           <FaLinkedin size={24} />
         </a>
       </div>
-      <p style={{ marginTop: '10px', fontSize: '1em' }}>Seguinos en redes sociales</p>
+      <p style={{ marginTop: '10px', fontSize: '1.5em' }}>Seguinos en redes sociales</p>
     </footer>
   );
 };
