@@ -1,12 +1,11 @@
 
 .titulo-carousel {
-    font-size: 300%;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 600;
     color: aliceblue;
     background-color: rgba(33, 33, 133, 0.685);
     
 }
-
 
 
 .carousel-item{
@@ -20,4 +19,4 @@
     width: 25%; 
     height: auto; 
     margin: 3% auto;
-  }
+}

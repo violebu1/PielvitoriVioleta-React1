@@ -42,7 +42,7 @@ const Tienda = () => {
   return (
     <div className="contenedor mt-5">
 
-      <h1 className="catalogo text-center my-4">NUESTROS PRODUCTOS</h1>
+      <h2 className="catalogo text-center my-4 ">NUESTROS PRODUCTOS</h2>
 
 <div className="bloque-carro">
       <i
@@ -65,7 +65,7 @@ const Tienda = () => {
       </div>
       <div className="row">
         {filteredProducts.map((product) => (
-          <div key={product.id} className="col-md-4 mb-4">
+          <div key={product.id} className="col-6 col-md-4 col-lg-3 mb-4">
             <ProductCard product={product} onAddToCart={handleAddToCart} />
           </div>
         ))}

@@ -13,7 +13,7 @@ function Contacto() {
 
   return (
     <div className="contenedor">
-            <h1 className="catalogo text-center my-4">CONTACTO</h1>
+            <h2 className="catalogo text-center my-4">CONTACTO</h2>
 
       <div className="formucontacto">
         <FormContacto />

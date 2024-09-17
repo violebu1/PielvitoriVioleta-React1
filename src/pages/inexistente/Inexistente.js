@@ -10,8 +10,9 @@ const  Inexistente=()=> {
         <div class="col-md-12">
             <div class="error-template">
                 <div className='imagen-de-error'>
-                <img src="../../images/attention.jpg" alt="imagen-de-error"/>
+                <img src="../../images/attention.jpg" alt="imagen-de-error" />
                 </div>
+                
                     <h1>Oops!</h1>
                 <h2>
                     Parece que te perdiste!!</h2>
@@ -27,6 +28,7 @@ const  Inexistente=()=> {
             </div>
         </div>
     </div>
+    
 </div>
 
     );

@@ -6,7 +6,10 @@ import Carousel from "bootstrap";
 function Inicio() {
   return (
     <div className="carouselEntero"  >
+
       
+
+
       <div id="carouselExampleIndicators" className="carousel slide">
         <div className="carousel-indicators">
           <button
@@ -40,6 +43,7 @@ function Inicio() {
           <div className="carousel-item">
             <img src="../../images/ringbit3.jpg" className="d-block img-fluid" alt="..." />
           </div>
+          
         </div>
         <button
           className="carousel-control-prev"
@@ -66,9 +70,11 @@ function Inicio() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <div className="titulo-carousel text-center ">
-      PRODUCTOS DESTACADOS</div>
+      <div className="titulo-carousel text-center mt-2 ">
+      Destacados</div>
+      
     </div>
+    
   );
 }
 

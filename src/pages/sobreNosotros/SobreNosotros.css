@@ -4,7 +4,17 @@
     background-color: rgba(72, 27, 145, 0.664);
     color: antiquewhite;
     border-radius: 2%;
+    font-size: 1rem;
+
+}
 
 
+.p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.textoAbout{
+    font-size:1.5em
 }
 

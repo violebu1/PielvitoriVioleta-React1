@@ -2,17 +2,16 @@
 html, body, #root {
     height: 100vh;
     margin: 0;
-    font-family: 'Borel', cursive;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight:bold;
-    font-size: 16px;
+    
+
+    font-size: 80%;
     -webkit-font-smoothing:antialiased;
     background-image: url("../public/images/fondo.avif");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    
+    font-family: 'Kanit', sans-serif;
 
     
 } 

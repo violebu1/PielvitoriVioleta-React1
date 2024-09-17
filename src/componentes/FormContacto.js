@@ -21,7 +21,8 @@ const FormContacto = () => {
   
     return (
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className='campos'>
+        <div >
           <label htmlFor="name">Nombre:</label>
           <input
             type="text"
@@ -52,6 +53,7 @@ const FormContacto = () => {
             onChange={handleChange}
             required
           />
+        </div>
         </div>
         <button type="submit"  class="btn btn-outline-info">Enviar</button>
       </form>
